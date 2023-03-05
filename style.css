@@ -83,19 +83,42 @@ body{
     }
 }
 
-@media (max-width: 768px)
+@media (max-width: 1200px)
 {
-
     .line{
-        font-size: 35px;
+        font-size: 1.5em;
+        border: 1px solid red;
     }
 
     .about-me{
+        margin-top: 0px;
+        font-size: 1.7em;
+         border: 1px solid red;
+    }
+
+    .click-here a{
+        top: 90%;
+        left: 45%;
+        margin-top: 15px;
+    }
+}
+
+@media (max-width: 768px)
+{
+    .line{
+        font-size: 1em;
+        border: 1px solid red;
+    }
+
+    .about-me{
+        margin-top: 0px;
         font-size: 1.4em;
+         border: 1px solid red;
     }
 
     .click-here a{
         top: 90%;
         left: 35%;
+        margin-top: 15px;
     }
 }
