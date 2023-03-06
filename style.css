@@ -1,107 +1,300 @@
-@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap');
-
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Arial', sans-serif;
+	list-style: none;
 }
 
 body{
-    font-family: 'Cutive Mono', monospace;
-    letter-spacing: -3px;
-    width: 100%;
-    height: 100%;
-    z-index: 1;
+	background: lightblue;
+	display: flex;
+	justify-content: safe center;
+	align-items: center;
+	min-height: 100vh;
 }
 
 .container{
-    position: relative;
-    height: 100vh;
-    filter: (60%);
-    background-image: url(https://unsplash.it/1800/1300?image=893);
-    background-repeat: no-repeat;
-    background-size: cover;
+	border-radius: 10%;
+	position: relative;
+	width: 100%;
+	max-width: 960px;
+	min-height: 1000px;
+	margin: 50px;
+	background: #fff;
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	box-shadow: 0 35px 55px rgba(0, 0, 0, 1.0);
 }
 
-.container::after{
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background: rgba(17, 17, 17, 0.9);
-    z-index: 0;
+.container .left_side{
+	position: relative;
+	background: #003147;
+	padding: 20px;
 }
 
-.line{
-    position: absolute;
-    top: 35px;
-    left: 5%;
-    font-size: 40px;
-    color: rgba(255,255,255,1.5);
-    z-index: 1;
+.profiletext{
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border-bottom: 1px solid rgba(255,255,255,0.2);
 }
 
-.about-me{
-    position: absolute;
-    top: 15%;
-    left: 5%;
-    width: 90%;
-    font-weight: 400;
-    color: rgba(255,255,255,0.9);
-    font-size: 1.8em;
-    z-index: 1;
+/*.profiletext .imgbox{
+	position: relative;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	overflow: hidden;
 }
 
-.click-here a{
-    position: absolute;
-    top: 85vh;
-    left: 48%;
-    font-size: 1.5em;
-    color: aliceblue;
-    border-radius: 10px 30px;
-    text-decoration: none;
-    padding: 10px;
-    border: 1px solid rgba(255, 255, 255, 0.9);
-    white-space: nowrap;
-    overflow: hidden;
-    z-index: 2;
+.profiletext .imgbox img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}*/
+
+.profiletext h2{
+	color: #fff;
+	font-size: 1.1em;
+	margin: 10px 5px;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: 600;
+	line-height: 1.4em;
 }
 
-.click-here a:hover{
-    transform: scale(1.1);
+.profiletext h2 span{
+	font-size: 1em;
+	color: #fff;
+	font-weight: 300;
 }
 
-@media (max-width: 1280px)
+.contactinfo{
+	margin: 20px 0;
+	padding-bottom: 5px;
+	border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+
+a{
+	color: #fff;
+	text-decoration: none;
+}
+
+.title{
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: 1px;
+}
+
+.contactinfo ul{
+	position: relative;
+}
+
+.contactinfo ul li{
+	position: relative;
+	margin: 5px 0;
+	cursor: pointer;
+}
+
+.contactinfo .text{
+	font-size: 0.80em;
+}
+
+.contactinfo ul li .icon{
+	display: inline-block;
+	width: 30px;
+	font-size: 15px;
+	color: #03a9f4;
+}
+
+.contactinfo ul li span{
+	color: #fff;
+	font-weight: 300;
+}
+
+.contactinfo.education h5{
+	font-size: 0.8em;
+	color: #03a9f4;
+	font-weight: 500;
+}
+
+.contactinfo.education h4:nth-child(2){
+	color: #fff;
+	font-weight: 500;
+}
+
+.contactinfo.education h4{
+	font-size: 0.82em;
+	color: #fff;
+	font-weight: 300;
+}
+
+.contactinfo.language .percent{
+	position: relative;
+	width: 100%;
+	height: 6px;
+	background: #081921;
+	display: block;
+}
+
+.contactinfo.language .percent div{
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	background: #03a9fa;
+}
+
+.container .right_side{
+	position: relative;
+	background: #fff;
+	padding: 15px;
+	border-radius: 5%;
+}
+
+.about .title2{
+	font-size: 1.3em;
+	text-align: left;
+	color: #03a9fa;;
+	margin-top: 45px;
+}
+
+.about .title3{
+	font-size: 1.3em;
+	color: #03a9fa;
+	padding-top: 15px;
+	margin-bottom: 5px;
+	border-top: 1px solid gray;
+}
+
+.about h5{
+	color: #333;
+}
+
+p{
+	font-size: 0.86em;
+	padding: 5px 0;
+	margin-bottom: 10px;
+}
+
+.col-1{
+	position: relative;
+	top: 0;
+	height: 20vh;
+	border-top: 1px solid gray;
+}
+
+.skill-competence{
+	position: absolute;
+	width: 45%;
+	padding-top: 15px;
+}
+
+.skill-competence .title4{
+	font-size: 1.3em;
+	color: #03a9fa;
+}
+
+.skill-competence .text{
+	position: absolute;
+	font-size: 0.8em;
+	color: #000;
+	font-weight: bold;
+}
+
+.skill-competence .percent{
+	position: relative;
+	top: 3px;
+	left: 20%;
+	width: 50%;
+	height: 7px;
+	margin: 15px;
+	background: #081921;
+	display: block;
+}
+
+.skill-competence .percent div{
+	position: relative;
+	top: 0;
+	left: 0;
+	height: 100%;
+	background: #03a9fa;
+	display: flex;
+}
+
+.col-div{
+	position: absolute;
+	top: 25px;
+	left: 42%;
+	border: 1px solid gray;
+	width: 1px;
+	height: 120px;
+}
+
+.contactinfo-right{
+	position: absolute;
+	left: 50%;
+	width: 50%;
+	padding-top: 15px;
+
+}
+
+.competenceinfo .title4{
+	font-size: 1.3em;
+	color: #03a9fa;
+}
+
+.competenceinfo .text{
+	position: absolute;
+	font-size: 0.8em;
+	color: #000;
+	font-weight: bold;
+}
+
+.competenceinfo .percent{
+	position: relative;
+	top: 3px;
+	left: 40%;
+	width: 50%;
+	height: 7px;
+	margin: 15px;
+	background: #081921;
+	display: block;
+}
+
+.competenceinfo .percent div{
+	position: relative;
+	top: 0;
+	left: 0;
+	height: 100%;
+	background: #03a9fa;
+	display: flex;
+}
+
+.about:last-child{
+	margin-bottom: 0;
+}
+
+@media (max-width: 1000px)
 {
-    .line{
-        font-size: 1.5em;
-    }
+	.container{
+		margin: 10px;
+		font-size: 0.8em;
+		grid-template-columns: repeat(1,1fr);
+	}
 
-    .about-me{
-        font-size: 1.7em;
-    }
+	.skill-competence{
+		margin: 0px;
+		grid-template-columns: repeat(2,1fr);
+	}
 
-    .click-here a{
-        left: 45%;
-        margin-top: 15px;
-    }
-}
-
-@media (max-width: 768px)
-{
-    .line{
-        font-size: 1em;
-    }
-
-    .about-me{
-        font-size: 1.4em;
-    }
-
-    .click-here a{
-        left: 40%;
-        margin-top: 40px;
-        font-size: 1em;
-    }
+	.percent{
+		grid-template-columns: repeat(2,1fr);
+	}
 }
