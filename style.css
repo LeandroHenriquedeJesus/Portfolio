@@ -65,7 +65,7 @@ body{
     border: 1px solid rgba(255, 255, 255, 0.9);
     white-space: nowrap;
     overflow: hidden;
-    z-index: 2;
+    z-index: 1;
 }
 
 .click-here a:hover{
