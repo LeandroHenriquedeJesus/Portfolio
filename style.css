@@ -30,13 +30,13 @@ body{
     height: 100%;
     width: 100%;
     background: rgba(17, 17, 17, 0.9);
-    
 }
 
 .line{
     position: absolute;
     top: 35px;
     left: 5%;
+    display: block;
     font-size: 40px;
     color: rgba(255,255,255,1.5);
     z-index: 1;
@@ -44,7 +44,7 @@ body{
 
 .about-me{
     position: absolute;
-    top: 15%;
+    top: 20%;
     left: 5%;
     width: 90%;
     font-weight: 400;
@@ -84,7 +84,7 @@ body{
 
     .click-here a{
         left: 45%;
-        margin-top: 15px;
+        margin-top: 20px;
     }
 }
 
@@ -95,12 +95,12 @@ body{
     }
 
     .about-me{
-        font-size: 1.3em;
+        font-size: 1.1em;
     }
 
     .click-here a{
         left: 40%;
-        margin-top: 20px;
+        margin-top: 40px;
         font-size: 1em;
     }
 }
