@@ -15,7 +15,7 @@
 :root{
     --bg: #333;
     --color:#adff2f;
-    --texto: #fff;
+    --text: #fff;
     --box: #010103;
 }
 
@@ -60,7 +60,7 @@ h1, h2, p{
 }
 
 span{
-    color: var(--texto);
+    color: var(--text);
     margin-bottom: 20px;
 }
 
@@ -129,7 +129,7 @@ span{
 }
 
 .home .container p{
-    color: var(--texto);
+    color: var(--text);
     font-size: 1.8em;
 }
 
@@ -161,7 +161,7 @@ span{
 }
 
 .about .row{ 
-    color: var(--texto);
+    color: var(--text);
     font-size: 2rem;
     text-align: left;
     align-items: center;
@@ -226,7 +226,7 @@ span{
 }
 
 .projects .column-2 .more p{
-    color: var(--texto);
+    color: var(--text);
     font-size: 1.5rem;
 }
 
@@ -332,7 +332,7 @@ span{
 }
 
 .footer .column-4 .share a{
-    color: var(--texto);
+    color: var(--text);
     font-size: 3rem;
     margin: 15px;
     border: 2px solid var(--bg);
@@ -359,7 +359,7 @@ span{
 .footer .column-4 .links a{
     font-size: 2rem;
     margin-left: 25px;
-    color: var(--texto);
+    color: var(--text);
 }
 
 .footer .column-4 .links a i{
@@ -490,8 +490,8 @@ span{
     }
 
     .header{
-		padding: 1.5rem 7%;
-	}
+	padding: 1.5rem 7%;
+    }
 
     header .icons{
         display: none;
