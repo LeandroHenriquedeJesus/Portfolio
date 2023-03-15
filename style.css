@@ -490,8 +490,8 @@ span{
     }
 
     .header{
-	padding: 1.5rem 7%;
-    }
+		padding: 1.5rem 7%;
+	}
 
     header .icons{
         display: none;
@@ -502,7 +502,7 @@ span{
     }
 
     .about .column p{
-        font-size: 1.5rem;
+        font-size: 1.9rem;
     }
 
     .projects .column-2 .row-2{
@@ -513,5 +513,17 @@ span{
     .projects .row-2 .more img{
         height: 40vw;
         width: 60vw;
+    }
+
+    .footer .column-4 .share a{
+        font-size: 1.1rem;
+    }
+
+    .footer .column-4 .links a{
+        font-size: 1.5rem;
+    }
+
+    .footer .column-4 .links a i{
+        font-size: 1.5rem;
     }
 }
