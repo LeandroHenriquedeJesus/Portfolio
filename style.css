@@ -483,3 +483,35 @@ span{
         height: 250px;
     }
 }
+
+@media screen and (max-width:480px){
+    header .navbar{
+        display: none;
+    }
+
+    .header{
+	padding: 1.5rem 7%;
+    }
+
+    header .icons{
+        display: none;
+    }
+
+    .about .column .drop{
+        display: none;
+    }
+
+    .about .column p{
+        font-size: 1.5rem;
+    }
+
+    .projects .column-2 .row-2{
+        height: 100%;
+        margin: 0;
+    }
+
+    .projects .row-2 .more img{
+        height: 40vw;
+        width: 60vw;
+    }
+}
