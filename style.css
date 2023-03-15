@@ -20,24 +20,24 @@
 }
 
 html{
-	font-size: 62.5%;
-	overflow-x: hidden;
+    font-size: 62.5%;
+    overflow-x: hidden;
     scroll-padding-top: 9rem;
 }
 
 html::-webkit-scrollbar{
-	width: .8rem;
+    width: .8rem;
     background-color: var(--box);
 }
 
 html::-webkit-scrollbar-track{
-	background: transparent;
+    background: transparent;
     
 }
 
 html::-webkit-scrollbar-thumb{
-	background: #fff;
-	border-radius: 5rem;
+    background: #fff;
+    border-radius: 5rem;
     background: var(--color);
 }
 
@@ -241,8 +241,8 @@ span{
 }
 
 .contact .column-3{
-	display: flex;
-	background: var(--box);
+    display: flex;
+    background: var(--box);
     padding: 15px;
     border: 1px solid var(--color);
 	flex-wrap: wrap;
@@ -269,10 +269,10 @@ span{
 
 .contact .column-3 form .inputBox{
     display: flex;
-	align-items: center;
-	margin-top: 1rem;
-	margin-bottom: 2rem;
-	background: var(--bg);
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    background: var(--bg);
     height: 50px;
     border-radius: 20px;
     border: 1px solid var(--color);
@@ -381,13 +381,13 @@ span{
 }
 
 @media (max-width:991px){
-	html{
-		font-size: 55%;
-	}
+    html{
+	font-size: 55%;
+    }
 
-	.header{
-		padding: 1.5rem 2rem;
-	}
+    .header{
+	padding: 1.5rem 2rem;
+    }
 
     header .navbar{
         font-size: 40%;
@@ -411,8 +411,8 @@ span{
     }
 
     section{
-		padding: 2rem;
-	}
+	padding: 2rem;
+    }
 
     .about .column .drop{
         width: 30vw;
@@ -496,8 +496,8 @@ span{
     }
 
     .header{
-		padding: 1.5rem 7%;
-	}
+	padding: 1.5rem 7%;
+    }
 
     header .icons{
         display: none;
