@@ -15,7 +15,7 @@
 :root{
     --bg: #333;
     --color:#adff2f;
-    --text: #fff;
+    --texto: #fff;
     --box: #010103;
 }
 
@@ -60,7 +60,7 @@ h1, h2, p{
 }
 
 span{
-    color: var(--text);
+    color: var(--texto);
     margin-bottom: 20px;
 }
 
@@ -129,7 +129,7 @@ span{
 }
 
 .home .container p{
-    color: var(--text);
+    color: var(--texto);
     font-size: 1.8em;
 }
 
@@ -161,7 +161,7 @@ span{
 }
 
 .about .row{ 
-    color: var(--text);
+    color: var(--texto);
     font-size: 2rem;
     text-align: left;
     align-items: center;
@@ -226,7 +226,7 @@ span{
 }
 
 .projects .column-2 .more p{
-    color: var(--text);
+    color: var(--texto);
     font-size: 1.5rem;
 }
 
@@ -332,7 +332,7 @@ span{
 }
 
 .footer .column-4 .share a{
-    color: var(--text);
+    color: var(--texto);
     font-size: 3rem;
     margin: 15px;
     border: 2px solid var(--bg);
@@ -358,8 +358,9 @@ span{
 
 .footer .column-4 .links a{
     font-size: 2rem;
-    margin-left: 25px;
-    color: var(--text);
+    text-align: center;
+    color: var(--texto);
+    margin: 5px;
 }
 
 .footer .column-4 .links a i{
@@ -467,8 +468,17 @@ span{
         font-size: 1.5rem;
     }
 
+    .footer .column-4{
+        height: 250px;
+    }
+
+    .footer .column-4 .share{
+        font-size: 1.9rem;
+    }
+
     .footer .column-4 .share a{
         font-size: 1.5rem;
+        margin: 30px 10px;
     }
 
     .footer .column-4 .links a{
@@ -478,10 +488,6 @@ span{
     .footer .column-4 .links a i{
         font-size: 1.5rem;
     }
-
-    .footer .column-4{
-        height: 250px;
-    }
 }
 
 @media screen and (max-width:480px){
@@ -490,11 +496,15 @@ span{
     }
 
     .header{
-	padding: 1.5rem 7%;
-    }
+		padding: 1.5rem 7%;
+	}
 
     header .icons{
         display: none;
+    }
+
+    .home .container .text{
+        font-size: 7rem;
     }
 
     .about .column .drop{
@@ -513,6 +523,15 @@ span{
     .projects .row-2 .more img{
         height: 40vw;
         width: 60vw;
+        margin: 0;
+    }
+
+    .contact .text{
+        font-size: 5rem;
+    }
+
+    .footer .column-4 .share{
+        margin: 0;
     }
 
     .footer .column-4 .share a{
@@ -521,6 +540,7 @@ span{
 
     .footer .column-4 .links a{
         font-size: 1.5rem;
+        justify-content: space-between;
     }
 
     .footer .column-4 .links a i{
