@@ -87,8 +87,8 @@ span{
 
 .header .navbar a{
     margin: 0 1rem;
-	font-size: 1.9rem;
-	color: #fff;
+    font-size: 1.9rem;
+    color: #fff;
     padding-bottom: 2px;
 }
 
@@ -147,8 +147,8 @@ span{
 
 .about .column{
     display: flex;
-	align-items: center;
-	background: #010103;
+    align-items: center;
+    background: #010103;
     border: 1px solid var(--color);
     height: 70%;
 	flex-wrap: wrap;
@@ -201,8 +201,8 @@ span{
 }
 
 .projects .column-2{
-	align-items: center;
-	flex-wrap: wrap;
+    align-items: center;
+    flex-wrap: wrap;
     height: 100%;
     border: 1px solid var(--color);
     background-color: var(--box);
@@ -245,8 +245,8 @@ span{
     background: var(--box);
     padding: 15px;
     border: 1px solid var(--color);
-	flex-wrap: wrap;
-	gap: 1rem;
+    flex-wrap: wrap;
+    gap: 1rem;
 }
 
 .contact .column-3 .map{
