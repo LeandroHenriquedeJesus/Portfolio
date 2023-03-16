@@ -151,7 +151,7 @@ span{
     background: #010103;
     border: 1px solid var(--color);
     height: 70%;
-	flex-wrap: wrap;
+    flex-wrap: wrap;
 }
 
 .about .text{
