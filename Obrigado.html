@@ -23,24 +23,32 @@
             min-height: 100vh;
         }
 
-        p{
+        h1{
             font-size: 9rem;
             color: #adff2f;
         }
+
+        @media screen and (max-width: 800px){
+            h1{
+                font-size: 6rem;
+            }
+        }
+            
+        
     </style>
 <body>
 
-    <p>Obrigado</p>
+    <h1>Obrigado</h1>
 
     <script>
-        const texto = document.querySelector('p')
+        const texto = document.querySelector('h1')
         typeWriter(texto)
 
-        function typeWriter(p) {
-        const textoArray = p.innerHTML.split('')
-        p.innerHTML = ''
+        function typeWriter(h1) {
+        const textoArray = h1.innerHTML.split('')
+        h1.innerHTML = ''
         textoArray.forEach((letra, i) => {
-        setTimeout(() => p.innerHTML += letra, 100 * i)});
+        setTimeout(() => h1.innerHTML += letra, 100 * i)});
         }
     </script>
 
