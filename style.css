@@ -196,16 +196,16 @@ span{
 	align-items: center;
 	flex-wrap: wrap;
     height: 100%;
+    padding: 20px;
     border: 1px solid var(--color);
     background-color: var(--box);
-    padding-left: 35px;
 }
 
 .projects .column-2 img{
-    width: 25vw;
-    height: 15vw;
-    margin: 20px;
+    width: 500px;
+    height: 300px;
     padding: 5px;
+    margin: 15px;
     border: 1px solid var(--color);
     border-radius: 15px;
 }
@@ -366,7 +366,7 @@ span{
     font-size: 2rem;
 }
 
-@media screen and (max-width:991px){
+@media screen and (max-width:1000px){
     .header{
 		padding: 1.5rem 7%;
 	}
@@ -481,7 +481,7 @@ span{
 
     .projects .column-2{
        height: 100%;
-       display: flex; 
+       padding: 80px;
     }
 
     .projects .column-2 img{
@@ -518,4 +518,17 @@ span{
     .footer .created .text{
         font-size: 1.5rem;
     }
+}
+
+@media screen and (max-width:600px){
+    .projects .column-2{
+        height: 100%;
+        padding: 35px;
+     }
+ 
+     .projects .column-2 img{
+         display: block;
+         height: 40vw;
+         width: 60vw;
+     }
 }
