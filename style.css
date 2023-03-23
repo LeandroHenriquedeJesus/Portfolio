@@ -201,7 +201,7 @@ span{
     padding-left: 35px;
 }
 
-.projects .column-2 .more img{
+.projects .column-2 img{
     width: 25vw;
     height: 15vw;
     margin: 20px;
@@ -210,13 +210,8 @@ span{
     border-radius: 15px;
 }
 
-.projects .column-2 .more img:hover{
+.projects .column-2  img:hover{
     transform: scale(1.1);
-}
-
-.projects .column-2 .more p{
-    color: var(--texto);
-    font-size: 1.5rem;
 }
 
 .contact{
@@ -484,11 +479,13 @@ span{
         font-size: 5rem;
     }
 
-    .projects .column-2 .row-2{
+    .projects .column-2{
        height: 100%;
+       display: flex; 
     }
 
-    .projects .column-2 .row-2 .more img{
+    .projects .column-2 img{
+        display: block;
         height: 40vw;
         width: 60vw;
     }
