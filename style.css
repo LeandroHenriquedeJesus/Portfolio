@@ -91,8 +91,8 @@ span{
 
 .header .navbar a{
     margin: 0 1rem;
-	font-size: 1.9rem;
-	color: #fff;
+    font-size: 1.9rem;
+    color: #fff;
     padding: 5px;
 }
 
@@ -100,7 +100,7 @@ span{
     background: var(--texto);
     color: var(--box);
     padding: .5rem;
-    border-radius: 50px;
+    border-radius: 4px;
     font-weight: 600;
 }
 
