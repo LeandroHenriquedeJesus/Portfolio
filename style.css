@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -91,8 +93,8 @@ span{
 
 .header .navbar a{
     margin: 0 1rem;
-    font-size: 1.9rem;
-    color: #fff;
+	font-size: 1.9rem;
+	color: #fff;
     padding: 5px;
 }
 
@@ -207,7 +209,7 @@ span{
     padding: 5px;
     margin: 15px;
     border: 1px solid var(--color);
-    border-radius: 15px;
+    border-radius: 4px;
 }
 
 .projects .column-2  img:hover{
