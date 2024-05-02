@@ -231,12 +231,13 @@ span{
     border: 1px solid var(--color);
 	flex-wrap: wrap;
 	gap: 1rem;
+    border-radius: 4px;
 }
 
 .contact .column-3 .map{
     flex: 1 1 45rem;
     width: 100%;
-    border-radius: 10px;
+    border-radius: 4px;
 }
 
 .contact .column-3 form{
@@ -258,7 +259,7 @@ span{
 	margin-bottom: 2rem;
 	background: var(--bg);
     height: 50px;
-    border-radius: 20px;
+    border-radius: 4px;
     border: 1px solid var(--color);
 }
 
@@ -273,7 +274,7 @@ span{
     width: 100%;
     padding: 1.5rem;
     font-size: 2rem;
-    border-radius: 20px;
+    border-radius: 4px;
     border: 1px solid var(--color);
     height: 50px;
 }
@@ -281,7 +282,7 @@ span{
 .contact .column-3 .message textarea{
     resize: none;
     width: 90%;
-    border-radius: 8px;
+    border-radius: 4px;
     border: 1px solid var(--color);
 }
 
@@ -295,14 +296,15 @@ span{
     margin-top: 30px;
 }
 
-.contact .column-3 .send .btn{
+.contact a{
     font-size: 2rem;
     padding: 10px;
+    background: var(--texto);
     color: var(--bg);
-    border-radius: 15px;
+    border-radius: 4px;
 }
 
-.contact .column-3 .send .btn:hover{
+.contact .column-3 .btn:hover{
     background-color: var(--color);
     color: var(--box);
 }
