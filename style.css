@@ -20,23 +20,23 @@
 }
 
 html{
-	font-size: 62.5%;
-	overflow-x: hidden;
+    font-size: 62.5%;
+    overflow-x: hidden;
     scroll-padding-top: 9rem;
 }
 
 html::-webkit-scrollbar{
-	width: .8rem;
+    width: .8rem;
     background-color: var(--box);
 }
 
 html::-webkit-scrollbar-track{
-	background: transparent;
+    background: transparent;
 }
 
 html::-webkit-scrollbar-thumb{
-	background: #fff;
-	border-radius: 5rem;
+    background: #fff;
+    border-radius: 5rem;
     background: var(--color);
 }
 
@@ -90,8 +90,8 @@ span{
 
 .header .navbar a{
     margin: 0 1rem;
-	font-size: 1.9rem;
-	color: #fff;
+    font-size: 1.9rem;
+    color: #fff;
     padding: 5px;
 }
 
@@ -141,8 +141,8 @@ span{
 }
 
 .about .column{
-	align-items: center;
-	background: #010103;
+    align-items: center;
+    background: #010103;
     border: 1px solid var(--color);
     height: 50vh;
     padding: 50px;
@@ -168,7 +168,7 @@ span{
 }
 
 .projects .column-2{
-	align-items: center;
+    align-items: center;
     border-radius: 4px;
     height: 100%;
     padding: 20px;
@@ -196,12 +196,12 @@ span{
 }
 
 .contact .column-3{
-	display: flex;
-	background: var(--box);
+    display: flex;
+    background: var(--box);
     padding: 15px;
     border: 1px solid var(--color);
-	flex-wrap: wrap;
-	gap: 1rem;
+    flex-wrap: wrap;
+    gap: 1rem;
     border-radius: 4px;
 }
 
@@ -225,10 +225,10 @@ span{
 
 .contact .column-3 form .inputBox{
     display: flex;
-	align-items: center;
-	margin-top: 1rem;
-	margin-bottom: 2rem;
-	background: var(--bg);
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    background: var(--bg);
     height: 40px;
     border-radius: 4px;
     border: 1px solid var(--color);
@@ -343,11 +343,11 @@ span{
 
 @media screen and (max-width:1000px){
     .header{
-		padding: 1.5rem 7%;
-	}
+    padding: 1.5rem 7%;
+    }
     
     .header .logo img{
-        height: 7rem;
+    height: 7rem;
     }
 
     .header .navbar .btn-mobile{
