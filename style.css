@@ -20,23 +20,23 @@
 }
 
 html{
-    font-size: 62.5%;
-    overflow-x: hidden;
+	font-size: 62.5%;
+	overflow-x: hidden;
     scroll-padding-top: 9rem;
 }
 
 html::-webkit-scrollbar{
-    width: .8rem;
+	width: .8rem;
     background-color: var(--box);
 }
 
 html::-webkit-scrollbar-track{
-    background: transparent;
+	background: transparent;
 }
 
 html::-webkit-scrollbar-thumb{
-    background: #fff;
-    border-radius: 5rem;
+	background: #fff;
+	border-radius: 5rem;
     background: var(--color);
 }
 
@@ -90,8 +90,8 @@ span{
 
 .header .navbar a{
     margin: 0 1rem;
-    font-size: 1.9rem;
-    color: #fff;
+	font-size: 1.9rem;
+	color: #fff;
     padding: 5px;
 }
 
@@ -141,8 +141,8 @@ span{
 }
 
 .about .column{
-    align-items: center;
-    background: #010103;
+	align-items: center;
+	background: #010103;
     border: 1px solid var(--color);
     height: 50vh;
     padding: 50px;
@@ -168,7 +168,7 @@ span{
 }
 
 .projects .column-2{
-    align-items: center;
+	align-items: center;
     border-radius: 4px;
     height: 100%;
     padding: 20px;
@@ -195,6 +195,89 @@ span{
     color: var(--color);
 }
 
+.contact .column-3{
+	display: flex;
+	background: var(--box);
+    padding: 15px;
+    border: 1px solid var(--color);
+	flex-wrap: wrap;
+	gap: 1rem;
+    border-radius: 4px;
+}
+
+.contact .column-3 .map{
+    flex: 1 1 45rem;
+    width: 100%;
+    border-radius: 4px;
+}
+
+.contact .column-3 form{
+    flex: 1 1 45rem;
+    padding: 3rem 1rem;
+    text-align: center;
+}
+
+.contact .column-3 form h3{
+    color: var(--color);
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.contact .column-3 form .inputBox{
+    display: flex;
+	margin: 15px;
+    margin-left: 15%;
+    width: 70%;
+	background: var(--bg);
+    height: 42px;
+    border-radius: 4px;
+    border: 1px solid var(--color);
+}
+
+.contact .column-3 form .inputBox span{
+    color: var(--color);
+    font-size: 1.5rem;
+    align-items: center;
+    margin: 10px;
+}
+
+.contact .column-3 form .inputBox input{
+    width: 100%;
+    padding: 1.5rem;
+    font-size: 1.5rem;
+    border-radius: 4px;
+    border: 1px solid var(--color);
+    height: 40px;
+}
+
+.contact .column-3 .message textarea{
+    resize: none;
+    width: 70%;
+    border-radius: 4px;
+    border: 1px solid var(--color);
+}
+
+.contact .column-3 .send span{
+    font-size: 2rem;
+    margin-right: 5px;
+    margin-top: 30px;
+    color: var(--color);
+}
+
+.contact a .send-form{
+    font-size: 1.5rem;
+    padding: 10px;
+    color: var(--bg);
+    background-color: (--texto);
+    border: none;
+    border-radius: 4px;
+}
+
+.contact .column-3 a:hover .send-form{
+    background-color: var(--color);
+    color: var(--box);
+    transform: scale(1.1);
+}
 
 .footer{
     margin-top: 10%;
@@ -257,7 +340,7 @@ span{
 
 @media screen and (max-width:1000px){
     .header{
-	padding: 1.5rem 7%;
+		padding: 1.5rem 7%;
 	}
     
     .header .logo img{
